@@ -2,7 +2,7 @@
 
 const array = [0, 3, 5, 7, 11, 14, 18, 22, 23, 25, 30]
 
-function binnarySearch(arr, searchNumber) {
+function binarySearch(arr, searchNumber) {
     let lowRange = 0
     let highRange = arr.length - 1
 
@@ -23,7 +23,7 @@ function binnarySearch(arr, searchNumber) {
     }
 }
 
-binnarySearch(array, 18)
-binnarySearch(array, 3)
-binnarySearch(array, 30)
-binnarySearch(array, 14)
+binarySearch(array, 18)
+binarySearch(array, 3)
+binarySearch(array, 30)
+binarySearch(array, 14)
